@@ -1,10 +1,8 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "tasktrackerapp_db",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    
+    "dialect": "postgres",
+    "url": "postgresql://postgres:ns7l689DP14AzaprtGYB@containers-us-west-57.railway.app:5736/railway"
   },
   "test": {
     "username": "root",
