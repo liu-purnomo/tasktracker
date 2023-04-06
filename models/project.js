@@ -30,13 +30,13 @@ module.exports = (sequelize, DataTypes) => {
     category: DataTypes.STRING,
     startDate: {
       type: DataTypes.DATE,
-      validate: {
-        start(value) {
-          if ((new Date(value)) < (new Date())) {
-            throw new Error("Start Date cannot be greater than Today");
-          }
-        }
-      }
+      // validate: {
+      //   start(value) {
+      //     if ((new Date(value)) < (new Date())) {
+      //       throw new Error("Start Date cannot be greater than Today");
+      //     }
+      //   }
+      // }
     },
     endDate: {
       type: DataTypes.DATE,
