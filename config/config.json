@@ -12,10 +12,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres",
+    "url": "postgresql://postgres:ns7l689DP14AzaprtGYB@containers-us-west-57.railway.app:5736/railway"
   }
 }
