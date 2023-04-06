@@ -1,6 +1,7 @@
 const { Project, User, Todo, Profile } = require("../models");
 const bcrypt = require('bcryptjs');
 const { formattedTimeAgo } = require('../helper/formatter')
+const { Op } = require("sequelize");
 
 class Controller {
     static homePage(req, res){
@@ -31,6 +32,27 @@ class Controller {
             .catch((err) => {
                 res.send(err)
             })
+    }
+
+    static settingfailedtask(req, res){  //background
+        Todo.update({status:'Failed'},{
+            where:{
+               dueDate:{
+                    // dueDate: `${new Date().getFullYear()}-${new Date().get()}-${new Date().getDate()}`
+                    [Op.lt]: new Date()
+                },
+                [Op.or]:{
+                    status:'Doing',
+                    status:'Todo'
+                }
+            }
+        })
+        .then((res)=>{
+            console.log(res);
+        })
+        .catch(err=>{
+            console.log(err);
+        })
     }
 
     static loginByUser(req, res){
@@ -94,7 +116,9 @@ class Controller {
 
     static dashboard(req, res){
         let project
-        Project.findAll()
+        Project.findAll({
+            order: [['startDate', 'DESC']] 
+        })
             .then((data) => {
                 project = data
                 return Todo.findAll()

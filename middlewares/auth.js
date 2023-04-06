@@ -2,7 +2,11 @@
 // const { id, role, username } = req.session.user
 const isLogedIn = (req, res, next) => {
     if(req.session.user) {
-        res.redirect(`/user-task`)
+        if(req.session.user.role === "Manager"){
+            res.redirect(`/dashboard`)
+        } else {
+            res.redirect(`/user-task`)
+        }
     } else {
         next()
     }

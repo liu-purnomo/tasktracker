@@ -4,10 +4,10 @@ const Controller = require('../controllers/controller')
 const router = express.Router()
 
 //authentication pages
-router.get('/', Controller.homePage)
+router.get('/', isLogedIn, Controller.homePage)
 router.get('/login', isLogedIn, Controller.homePage)
 router.post('/loginEmail', isLogedIn, Controller.loginByEmail)
-router.post('/loginUSer', isLogedIn, Controller.loginByUser)
+router.post('/loginUser', isLogedIn, Controller.loginByUser)
 router.get('/register', isLogedIn, Controller.register)
 router.post('/register', isLogedIn, Controller.registerData)
 router.get('/logout', authentication, Controller.logout)
