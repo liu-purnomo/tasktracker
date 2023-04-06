@@ -64,7 +64,7 @@ module.exports = (sequelize, DataTypes) => {
   });
 
   User.beforeCreate((instance) => {
-    instance.role = "Manager";
+    instance.role = "Staff";
     const salt = bcryptjs.genSaltSync(10);
     const hash = bcryptjs.hashSync(instance.password, salt);
     instance.password = hash;

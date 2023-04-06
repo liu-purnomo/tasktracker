@@ -26,5 +26,9 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Todo',
   });
+  
+  Todo.beforeCreate((instance) => {
+    instance.status = "Todo";
+  })
   return Todo;
 };
