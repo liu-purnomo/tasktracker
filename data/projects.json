@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Fire Sprinkler System",
+        "description": "Central cord syndrome at C6 level of cervical spinal cord"
+    },
+    {
+        "id": 2,
+        "title": "Exterior Signage",
+        "description": "Displacement of graft of urinary organ, sequela"
+    },
+    {
+        "id": 3,
+        "title": "Granite Surfaces",
+        "description": "Continuing pregnancy after intrauterine death of one fetus or more, unspecified trimester"
+    },
+    {
+        "id": 4,
+        "title": "Epoxy Flooring",
+        "description": "Corrosion of first degree of other site of trunk"
+    },
+    {
+        "id": 5,
+        "title": "Construction Clean and Final Clean",
+        "description": "Osteochondropathy, unspecified, left ankle and foot"
+    },
+    {
+        "id": 6,
+        "title": "Construction Clean and Final Clean",
+        "description": "Obstructed labor due to deformed pelvis"
+    },
+    {
+        "id": 7,
+        "title": "Rebar & Wire Mesh Install",
+        "description": "Poisoning by, adverse effect of and underdosing of sulfonamides"
+    },
+    {
+        "id": 8,
+        "title": "Landscaping & Irrigation",
+        "description": "Nondisplaced transverse fracture of shaft of unspecified femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+    },
+    {
+        "id": 9,
+        "title": "Roofing (Asphalt)",
+        "description": "Subluxation of metacarpophalangeal joint of left thumb, subsequent encounter"
+    },
+    {
+        "id": 10,
+        "title": "Drywall & Acoustical (FED)",
+        "description": "Penetrating wound of orbit with or without foreign body, right eye, sequela"
+    },
+    {
+        "id": 11,
+        "title": "Construction Clean and Final Clean",
+        "description": "Toxic effect of phosphorus and its compounds, assault, subsequent encounter"
+    },
+    {
+        "id": 12,
+        "title": "Curb & Gutter",
+        "description": "Corrosion of first degree of unspecified site of left lower limb, except ankle and foot, sequela"
+    },
+    {
+        "id": 13,
+        "title": "Wall Protection",
+        "description": "Displaced transverse fracture of shaft of humerus, unspecified arm, sequela"
+    },
+    {
+        "id": 14,
+        "title": "Plumbing & Medical Gas",
+        "description": "Poisoning by antihyperlipidemic and antiarteriosclerotic drugs, assault, sequela"
+    },
+    {
+        "id": 15,
+        "title": "Temp Fencing, Decorative Fencing and Gates",
+        "description": "Toxic reaction to local anesthesia during pregnancy, unspecified trimester"
+    },
+    {
+        "id": 16,
+        "title": "Painting & Vinyl Wall Covering",
+        "description": "Unspecified injury of inferior mesenteric artery, subsequent encounter"
+    },
+    {
+        "id": 17,
+        "title": "Exterior Signage",
+        "description": "Partially resolved traumatic cataract"
+    },
+    {
+        "id": 18,
+        "title": "Prefabricated Aluminum Metal Canopies",
+        "description": "Laceration with foreign body of right eyelid and periocular area, initial encounter"
+    },
+    {
+        "id": 19,
+        "title": "Framing (Wood)",
+        "description": "Acquired stenosis of external ear canal"
+    },
+    {
+        "id": 20,
+        "title": "Asphalt Paving",
+        "description": "Burn of unspecified degree of abdominal wall, sequela"
+    }
+]

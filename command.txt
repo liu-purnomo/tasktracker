@@ -1,0 +1,25 @@
+npm init -y
+npm install express ejs pg sequelize
+sequelize init
+sequelize model:create --name  --attributes 
+
+sequelize migration:create --name add-username-column
+
+sequelize db:migrate
+sequelize seed:create --name insert-users-data
+sequelize seed:create --name insert-profiles-data
+sequelize seed:create --name insert-projects-data
+sequelize seed:create --name insert-todos-data
+sequelize db:seed:all
+mkdir views routers public helper middleware controllers views/partials
+
+
+touch app.js .gitignore controllers/controller.js routers/index.js views/index.ejs views/partials/header.ejs views/partials/footer.ejs views/partials/navbar.ejs
+
+sequelize model:create --name Project --attributes title:string,description:string
+
+sequelize model:create --name User --attributes email:string,password:string,role:string
+
+sequelize model:create --name Todo --attributes task:string,status:string,dueDate:date,ProjectId:integer,UserId:integer
+
+sequelize model:create --name Profile --attributes firstName:string,lastName:string,gender:string,UserId:integer

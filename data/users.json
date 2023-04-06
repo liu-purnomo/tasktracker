@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "username": "liu",
+        "email": "kontak.liu@gmail.com",
+        "password": "123",
+        "role": "Staff"
+    },
+    {
+        "id": 2,
+        "username": "cprater1",
+        "email": "lchristmas1@plala.or.jp",
+        "password": "NSYiSIVIe0mx",
+        "role": "Manager"
+    },
+    {
+        "id": 3,
+        "username": "orowat2",
+        "email": "osharpin2@phpbb.com",
+        "password": "ui1GjZUJIb8E",
+        "role": "Staff"
+    }
+]
